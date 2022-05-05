@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Youtube Posting</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+ 
+    <div class="container">
+        <h2>Column Sizing</h2>
+        <p>The form below shows input elements with different widths using different .col-xs-* classes:</p>
+        <form action="http://127.0.0.1:8000/comment" method="post">
+            <div class="form-group row">
+                <div class="col-xs-2">
+                    <label for="ex1">Youtube Video Id</label>
+                    <input class="form-control" id="ex1" name="video_id" type="text" required>
+                </div>
+                <div class="col-xs-4">
+                    <label for="ex3">Comment</label>
+                    <input class="form-control" id="ex3" type="text">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-xs-2">
+                    <button>Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
